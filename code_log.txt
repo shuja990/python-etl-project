@@ -1,0 +1,15 @@
+2024-Jan-29-17:28:18 : ETL process started
+2024-Jan-29-17:28:18 : Data extraction started
+2024-Jan-29-17:28:18 : Data extraction completed
+2024-Jan-29-17:28:18 : Data transformation started
+2024-Jan-29-17:28:18 : Data transformation completed
+2024-Jan-29-17:28:18 : Data loading to CSV started
+2024-Jan-29-17:28:18 : Data loading to CSV completed
+2024-Jan-29-17:28:18 : Data loading to DB started
+2024-Jan-29-17:28:18 : Data loading to DB completed
+2024-Jan-29-17:28:18 : Running query: SELECT * FROM Largest_banks 
+
+2024-Jan-29-17:28:18 : Running query: SELECT AVG(MC_GBP_Billion) FROM Largest_banks 
+
+2024-Jan-29-17:28:18 : Running query: SELECT Name from Largest_banks LIMIT 5 
+
